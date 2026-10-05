@@ -1,0 +1,48 @@
+name: Сообщить об ошибке
+description: Помогите воспроизвести проблему в HranGor
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Не публикуйте токены, внутренние адреса, имена сотрудников и реальные данные конфигурации.
+  - type: input
+    id: version
+    attributes:
+      label: Версия HranGor
+      placeholder: Например, 0.4.0
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Версия Windows
+    validations:
+      required: true
+  - type: dropdown
+    id: source
+    attributes:
+      label: Источник истории
+      options:
+        - Gitea
+        - GitHub
+        - Локальный Git-репозиторий
+        - Другой Git-сервер
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги воспроизведения
+      placeholder: |
+        1. Открыть…
+        2. Выбрать…
+        3. Наблюдать…
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Ожидаемый и фактический результат
+    validations:
+      required: true

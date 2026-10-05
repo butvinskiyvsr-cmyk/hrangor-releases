@@ -4,7 +4,12 @@
 
 # HranGor
 
+[![Последний релиз](https://img.shields.io/github/v/release/butvinskiyvsr-cmyk/hrangor-releases?display_name=tag&style=flat-square&label=release)](https://github.com/butvinskiyvsr-cmyk/hrangor-releases/releases/latest)
+[![Загрузки](https://img.shields.io/github/downloads/butvinskiyvsr-cmyk/hrangor-releases/total?style=flat-square&label=downloads)](https://github.com/butvinskiyvsr-cmyk/hrangor-releases/releases)
+
 Windows-приложение для исследования конфигураций 1С через историю Git/Gitea. HranGor строит дерево метаданных и показывает, кто, когда и что менял в каждом объекте, реквизите, форме и модуле.
+
+**[Скачать HranGor для Windows](https://github.com/butvinskiyvsr-cmyk/hrangor-releases/releases/latest/download/HranGor-Setup-0.4.0.exe)** · [Все релизы](https://github.com/butvinskiyvsr-cmyk/hrangor-releases/releases)
 
 Исходный код хранится в отдельном закрытом репозитории. Здесь публикуются официальные установщики и файлы автоматического обновления.
 

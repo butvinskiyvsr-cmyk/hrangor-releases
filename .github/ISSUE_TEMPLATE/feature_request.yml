@@ -1,0 +1,17 @@
+name: Предложить улучшение
+description: Идея для развития HranGor
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую задачу нужно решить?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Как должно работать решение?
+    validations:
+      required: true
